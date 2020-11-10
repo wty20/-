@@ -14,12 +14,13 @@ public class DengLu_Class {
 	private JPanel jPenel_west = new JPanel();
 	private JPanel user_heads = new JPanel();
 	private JPanel user_text = new JPanel();
-	private static JLabel tpJLabel = new JLabel(new ImageIcon(Window.class.getResource("y.png")));
+	private static JLabel tpJLabel = new JLabel("头像");
+//	private static JLabel tpJLabel = new JLabel(new ImageIcon(Window.class.getResource("y.png")));
 //	Image icon = Toolkit.getDefaultToolkit().getImage(Window.class.getResource("gfh.png"));
 	private JLabel tishi = new JLabel("管理员资料");
-	private String name = "韦通元";
+	private String name = "name";
 	private String zhanghao = "218003697";
-	private String dianhua = "18385822425";
+	private String dianhua = "183858*****";
 	private String youxiang = "2830375486";
 
 	private JTextArea user_data = new JTextArea();

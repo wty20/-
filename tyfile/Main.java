@@ -11,7 +11,7 @@ public class Main {
 	static JLabel tpJLabel=new JLabel();
     public static void main(String[] args) throws IOException {
         Window window = new Window(tpJLabel);
-        mkdirFile mkdirFile =new mkdirFile();
+        mkdirFile mkdirFile =new mkdirFile();  
         mkdirFile.mkdirfiles();
         window.windows();
     }
