@@ -10,6 +10,7 @@ public class connectionMysql {
 		java.sql.Statement statement =null;
 		ResultSet resultSet =null;
 		Connection connection=null;
+	
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			String url ="jdbc:mysql://127.0.0.1:3306/wty20?serverTimezone=GMT%2B8";

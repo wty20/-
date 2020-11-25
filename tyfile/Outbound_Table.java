@@ -31,7 +31,7 @@ public class Outbound_Table {
     	 String[][] tableData = new String[100][15];
                 
                 	for(int i=0; i<100;i++) {
-                		for (int j =0;j<15;j++){
+                		for (int j =0;j<12;j++){
                 			String bString = String.valueOf(i+1);
                 			if (j ==0) {
                 				tableData[i][j] = bString;
@@ -61,18 +61,10 @@ public class Outbound_Table {
 							else if (j ==10) {
 								tableData[i][j] = "  ";
 							}
-							else if (j ==11) {
+							else  {
 								tableData[i][j] = "  ";
 							}
-							else if (j ==12) {
-								tableData[i][j] = "  ";
-							}
-							else if (j ==13) {
-								tableData[i][j] = "  ";
-							}
-							else if (j ==14) {
-								tableData[i][j] = "  ";
-							}
+		
                 			
                 		}
                 	}
@@ -92,7 +84,7 @@ public class Outbound_Table {
 //
 //                };
         //定义一维数据作为列标题
-        Object[] columnTitle = { "序号","书编号", "书名", "书价格", "借书用户", "借书证号", "联系方式","借书时间"," "," "," "," "," "," "," " };
+        Object[] columnTitle = { "序号","书编号", "书名", "书价格", "借书用户", "借书证号", "联系方式","借书时间"," "," "," " };
         //以二维数组和一维数组来创建一个JTable对象
         jTable = new JTable(tableData, columnTitle);
         
@@ -108,7 +100,7 @@ public class Outbound_Table {
 //		gundongtiao.setRowHeaderView(biao);
 
 		bottom.add(gundongtiao);
-		gundongtiao.setBounds(50, 20, 1500, 700);
+		gundongtiao.setBounds(50, 20, 1200, 700);
 //		tpJLabel.setBounds(0,0,1800,900);
 		((JComponent) jTable).setEnabled(false);
 		((JComponent) jTable).setOpaque(false);

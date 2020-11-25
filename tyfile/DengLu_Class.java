@@ -14,8 +14,8 @@ public class DengLu_Class {
 	private JPanel jPenel_west = new JPanel();
 	private JPanel user_heads = new JPanel();
 	private JPanel user_text = new JPanel();
-	private static JLabel tpJLabel = new JLabel("头像");
-//	private static JLabel tpJLabel = new JLabel(new ImageIcon(Window.class.getResource("y.png")));
+//	private static JLabel tpJLabel = new JLabel("头像");
+	private static JLabel tpJLabel = new JLabel(new ImageIcon(Window.class.getResource("y.png")));
 //	Image icon = Toolkit.getDefaultToolkit().getImage(Window.class.getResource("gfh.png"));
 	private JLabel tishi = new JLabel("管理员资料");
 	private String name = "name";
@@ -62,8 +62,8 @@ public class DengLu_Class {
 	}
 
 	private void redraw() {
-		jFrame.setSize(1500, 900);// 设置显示窗口大小
-		jFrame.setLocation(200, 50);
+		jFrame.setSize(1600, 980);// 设置显示窗口大小
+		jFrame.setLocation(200, 30);
 		jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);// 默认单机点关闭窗口
 		jFrame.setResizable(true);// 设置窗口不可变大小贴用
 		jFrame.setVisible(true);// 设置窗口为可见的
@@ -301,7 +301,7 @@ public class DengLu_Class {
 		user_heads.setLayout(null);
 		user_heads.add(tpJLabel);
 		tpJLabel.setBounds(2, 2, 118, 148);
-		tpJLabel.setBackground(Color.BLUE);
+//		tpJLabel.setBackground(Color.BLUE);
 
 	}
 }

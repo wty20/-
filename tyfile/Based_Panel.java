@@ -18,9 +18,8 @@ public class Based_Panel {
 	}
 
 	public void addJpanel() {
-		// JPanel.setBackground(Color.PINK);
 		JPanel.setLayout(null);
 		JPanel.add(tpJLabel2);
-		tpJLabel2.setBounds(0, 0, 1200, 800);
+		tpJLabel2.setBounds(0, 50, 1200, 800);
 	}
 }
